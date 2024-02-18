@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yhunike</title>
+    <style>
+        /* Gaya CSS untuk menu bar */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .menu-bar {
+            background-color: #006400; /* Warna hijau tua */
+            overflow: hidden;
+            display: flex; /* Menggunakan flexbox */
+        }
+        .menu-bar a {
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            flex-grow: 1; /* Menyesuaikan lebar secara proporsional */
+        }
+        .menu-bar a:hover {
+            background-color: #008000; /* Warna hijau lebih terang saat digulir */
+        }
+        .title {
+            background-color: #f2f2f200;
+            padding: 20px;
+            text-align: left;
+            position: relative;
+        }
+        .posted-by {
+            background-color: #006400; /* Warna hijau tua */
+            color: white;
+            padding: 10px 20px;
+            text-align: left;
+            display: inline-block; /* Membuatnya menjadi blok inline */
+            margin-top: 10px; /* Menambahkan margin atas agar tidak terlalu dekat dengan judul */
+        }
+        .additional-info {
+            background-color: #008000; /* Warna hijau lebih terang */
+            color: white;
+            padding: 10px 20px;
+            text-align: left;
+            display: inline-block; /* Membuatnya menjadi blok inline */
+            margin-top: 10px; /* Menambahkan margin atas agar tidak terlalu dekat dengan judul */
+        }
+        .image-container {
+            margin-top: 30px;
+            text-align: left; /* Posisi teks ke kiri */
+        }
+        .image-container img {
+            max-width: 200px; /* Ukuran gambar yang lebih kecil */
+            height: auto;
+            float: left; /* Menempatkan gambar di sebelah kiri */
+            margin-right: 10px; /* Jarak antara gambar dan teks */
+        }
+        .image-container p {
+            overflow: hidden; /* Mengatasi teks yang melewati gambar */
+        }
+        .next-page {
+            background-color: #f2f2f200;
+            padding: 10px 20px;
+            text-align: right;
+            margin-top: 50px; /* Menambahkan margin atas agar tidak terlalu dekat dengan judul */
+        }
+    </style>
+</head>
+<body>
+
+<div class="menu-bar">
+    <a href="#">HOME</a>
+    <a href="#">BUSINESS</a>
+    <a href="#">ADULTS</a>
+    <a href="#">FEATURED</a>
+    <a href="#">GARDENING</a>
+    <a href="#">UNCATEGORIZED</a>
+</div>
+
+<div class="title">
+    <h2>Kursi Santai Yang Nyaman</h2>
+    <div class="posted-by">
+        POSTED BY KACANGKU
+    </div>
+    <div class="additional-info">
+        ON 21.20 | NO COMMENT
+    </div>
+    <div class="image-container">
+        <img src="kursi.webp" alt="Gambar 1">
+        <p>Dengan ruang terasmu yang terbatas luasnya maka kami</p>
+        <p>mencoba hunting kursi yang simple.... namun setelah</p>
+        <p>hunting beberapa kali kami belum mendapatkan bentuk serta</p>
+        <p>harga yang cocok di hati.... karena model yang kami</p>
+        <p>inginkan tidak ready akhirnya kami coba design kursinya</p>
+        <p>dan pesan ke pengrajin rotan-andong yang ada di</p>
+        <p>seputaran Pasar Modern-Bintaro dengan harga yang</p>
+        <p>relatif terjangkau....</p>
+    </div>
+    <div class="next-page">
+        Read More
+    </div>
+</div>
+
+</body>
+</html>
